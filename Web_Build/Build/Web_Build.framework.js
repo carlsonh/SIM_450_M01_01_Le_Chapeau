@@ -1520,7 +1520,7 @@ function _emscripten_asm_const_ii(code, a0) {
  return ASM_CONSTS[code](a0);
 }
 STATIC_BASE = GLOBAL_BASE;
-STATICTOP = STATIC_BASE + 3658112;
+STATICTOP = STATIC_BASE + 3658192;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__sub_I_Modules_DSPGraph_Public_0_cpp();
@@ -3402,7 +3402,7 @@ __ATINIT__.push({
   __GLOBAL__sub_I_Runtime_Misc_2_cpp();
  })
 });
-var STATIC_BUMP = 3658112;
+var STATIC_BUMP = 3658192;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 var tempDoublePtr = STATICTOP;
