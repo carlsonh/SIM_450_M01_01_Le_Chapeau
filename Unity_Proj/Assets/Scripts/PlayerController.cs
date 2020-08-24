@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable
         //If this player being created isn't the local user, disable physics as that's calculated locally and synced by server
         if (photonView.IsMine)
         {
-            rbRig.isKinematic = false;
+            rbRig.isKinematic = true;
         }
     }
 
